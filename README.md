@@ -5,9 +5,9 @@ Build a simple Lua application where you'll learn to work with variables, functi
 
 ## Technologies Used
 
-- **HTML** — semantic and accessible markup for the ID card.
-- **CSS** — responsive styles with support for dark/light themes (dark is the default).
-- **JavaScript** — logic for rendering attributes, toggling languages, switching themes, regenerating attributes, and copying JSON.
+- **HTML** - semantic and accessible markup for the ID card.
+- **CSS** - responsive styles with support for dark/light themes (dark is the default).
+- **JavaScript** - logic for rendering attributes, toggling languages, switching themes, regenerating attributes, and copying JSON.
 
 ## Features
 
