@@ -1,0 +1,75 @@
+# Node / package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Build outputs
+dist/
+build/
+public/build/
+.cache/
+.cache-loader/
+.parcel-cache/
+.next/
+.nuxt/
+out/
+coverage/
+
+# Static site / GitHub Pages
+.publish/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment / secrets
+.env
+.env.* 
+.env.local
+.env.production
+.env.development
+.env.test
+*.key
+*.pem
+*.p12
+*.crt
+
+# Logs, temp, backups
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.~*
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated assets / caches
+.sass-cache/
+.cache/
+tmp/
+temp/
+
+# Misc
+coverage/
+reports/
+dist-*/
+assets/*.map
+*.map
+
+# Ignore OS-specific thumbnail caches and other cruft
+ehthumbs.db
+Icon?
