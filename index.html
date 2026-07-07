@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RG Creeper — Interactive Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="theme-dark">
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <h1 id="site-title">RG Creeper</h1>
+
+      <div class="controls" role="region" aria-label="Controls">
+        <label for="lang-select" class="visually-hidden">Language</label>
+        <select id="lang-select" aria-label="Choose language">
+          <option value="en">EN</option>
+          <option value="pt-BR">PT-BR</option>
+          <option value="es">ES</option>
+        </select>
+
+        <button id="theme-toggle" aria-pressed="true" aria-label="Toggle dark and light mode">
+          <span id="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="main" role="main">
+    <article class="card" aria-labelledby="monster-name" id="rg-card">
+      <header class="card-header">
+        <h2 id="monster-name">CREEPER</h2>
+        <p id="monster-desc" class="muted">A stealthy monster with an explosive temper.</p>
+      </header>
+
+      <section class="card-meta" aria-label="Basic info">
+        <dl>
+          <div>
+            <dt><strong>Item</strong></dt>
+            <dd id="item">Gunpowder</dd>
+          </div>
+          <div>
+            <dt><strong>Sound</strong></dt>
+            <dd id="sound">Tssssss</dd>
+          </div>
+          <div>
+            <dt><strong>Favorite Time</strong></dt>
+            <dd id="favorite-time">Night</dd>
+          </div>
+          <div>
+            <dt><strong>Emoji</strong></dt>
+            <dd id="emoji" aria-hidden="true">💥</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="attributes" aria-labelledby="attributes-title">
+        <h3 id="attributes-title">Attributes</h3>
+
+        <ul class="attr-list" id="attr-list" role="list">
+          <!-- JS populates attribute items -->
+        </ul>
+      </section>
+
+      <footer class="card-footer">
+        <button id="regen" class="btn">Regenerate</button>
+        <button id="copy-btn" class="btn">Copy JSON</button>
+        <div id="status" class="status" aria-live="polite"></div>
+      </footer>
+    </article>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <small id="credits">Educational project — RG Creeper</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
