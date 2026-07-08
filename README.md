@@ -36,7 +36,7 @@ Build a simple Lua application where you'll learn to work with variables, functi
 - Add animations and sound effects (ensure accessible mute controls).
 - Offer an export option (SVG/PNG) for the card (note: this demo does not include file export).
 
-![Screenshot](/img/rg_creeper.png)
+![Screenshot](/docs/public/rg_creeper.png)
 
 [LICENSE](/LICENSE)
 
